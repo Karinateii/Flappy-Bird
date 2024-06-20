@@ -55,14 +55,6 @@ public class LogicScript : MonoBehaviour
         #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
         #endif
-
-        //Application.Quit();
-
-        //if (Application.isEditor)
-        //{
-        //    // This is to stop playing the game in the Unity editor
-        //    UnityEditor.EditorApplication.isPlaying = false;
-        //}
     }
 
     public void pauseGame()
