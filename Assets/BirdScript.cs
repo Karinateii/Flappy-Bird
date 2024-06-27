@@ -7,12 +7,12 @@ public class BirdScript : MonoBehaviour
 {
     public Rigidbody2D myRigidbody; // Reference to the bird's Rigidbody2D component
     public float manualFlapStrength = 15f; // Flap strength when controlled manually
-    public float autonomousFlapStrength = 4.5f; // Flap strength when controlled by AI
+    public float autonomousFlapStrength = 4.5f; // Flap strength 
     public float manualGravityScale = 5f; // Gravity scale when controlled manually
-    public float autonomousGravityScale = 45f; // Gravity scale when controlled by AI
+    public float autonomousGravityScale = 45f; // Gravity scale
     public LogicScript logic; // Reference to the logic script
     public bool birdIsAlive = true; // Flag to check if the bird is alive
-    public bool isAutonomous = false; // Flag to check if the bird is controlled by AI
+    public bool isAutonomous = false; // Flag to check if the bird is controlled
 
     private AutonomousBird autonomousBird; // Reference to the AI control script
 
