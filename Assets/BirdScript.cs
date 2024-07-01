@@ -14,7 +14,7 @@ public class BirdScript : MonoBehaviour
     public bool birdIsAlive = true; // Flag to check if the bird is alive
     public bool isAutonomous = false; // Flag to check if the bird is controlled
 
-    private AutonomousBird autonomousBird; // Reference to the AI control script
+    private AutonomousBird autonomousBird; // Reference to the autonomous script
 
     void Start()
     {
